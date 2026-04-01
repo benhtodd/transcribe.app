@@ -14,7 +14,7 @@ from pathlib import Path
 import pytest
 
 WORKSPACE = Path(__file__).parent.parent
-VIDEO = WORKSPACE / "projects" / "GMT20260331-233449_Recording_1832x944" / "GMT20260331-233449_Recording_1832x944.mp4"
+VIDEO = WORKSPACE / "projects" / "test-1" / "GMT20260331-233449_Recording_1832x944.mp4"
 SCRIPT = WORKSPACE / "transcribe.py"
 
 
